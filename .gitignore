@@ -1,0 +1,15 @@
+# Datos descargados y generados
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Archivos de herramientas y sistema
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Salidas temporales de Office/Power BI
+~$*
